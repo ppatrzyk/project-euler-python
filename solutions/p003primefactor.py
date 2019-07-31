@@ -14,5 +14,6 @@ def get_prime_factors(n):
 			current_factor += 1
 	return factor_list
 
-factors = get_prime_factors(NUMBER)
-print(max(factors))
+if __name__ == "__main__":
+	factors = get_prime_factors(NUMBER)
+	print(max(factors))
