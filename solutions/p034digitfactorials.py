@@ -1,7 +1,4 @@
 
-
-
-
 from math import factorial
 import itertools
 
