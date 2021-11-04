@@ -1,5 +1,5 @@
 import requests
-from p81pathsum2 import search, MOVES
+from p081pathsum2 import search, MOVES
 
 if __name__ == "__main__":
     matrix = requests.get('https://projecteuler.net/project/resources/p082_matrix.txt')
